@@ -1,0 +1,18 @@
+
+.it-ul{
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(41, 40, 44);
+    border-radius: 10px;
+}
+li{
+    
+    color: rgb(233, 255, 183);
+    list-style-type: none;
+    user-select: none;
+    cursor: pointer;
+}
+.it-li{
+    list-style-type: none;
+    user-select: none;
+    cursor: pointer;
+}

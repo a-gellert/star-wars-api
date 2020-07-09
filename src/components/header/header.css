@@ -1,0 +1,27 @@
+header{
+    padding: 10px 0 20px 0;
+    display: grid;
+    
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 20px;
+    background-color: rgb(41, 40, 44);
+}
+
+.header-logo{
+    font-size: 24px;
+    grid-column: 2/span 3;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 600;
+    color: yellow;
+    cursor: pointer;
+}
+.header-item {
+    padding: 2%;
+}
+.header-item a{
+    padding: 2%;
+    font-size: 16px;
+    color: rgb(233, 255, 183);
+    text-decoration: none;
+}

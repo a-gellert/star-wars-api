@@ -1,0 +1,64 @@
+.random{
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+.back{  
+    grid-column: 2;
+    display: grid;
+    grid-template-columns:  2fr 3fr 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    background-color: rgb(41, 40, 44);
+    border-radius: 10px;
+    max-height: 232px;
+}
+    .planet{
+    grid-row:1/span 4 ;
+    grid-column:1/2;
+    padding: 5%;
+}
+img{
+    width: 200px;
+    height: 200px;
+
+}
+.name-info, .popul-info, .rot-info, .diam-info{
+    font-family: serif;
+    color: rgb(233, 255, 183);
+    grid-column-start: 3/ span 2;
+    padding: 2%;
+}
+.load{
+    justify-self: center;
+    grid-column: 2;
+    
+}
+.error{
+    justify-self: center;
+    grid-column: 2;
+    
+}
+.name-info{
+    font-size: 24px;
+    grid-row: 1;
+}
+.popul-info{
+    
+    grid-row: 2;
+}
+.rot-info{
+    grid-row: 3;
+}
+.diam-info{
+    grid-row: 4;
+}
+.label{
+    font-weight: bold;
+    color:rgb(176, 194, 134)
+}
+hr{
+   
+border: 0;
+height: 1px;
+background: rgb(66, 66, 66);
+}
